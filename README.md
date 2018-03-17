@@ -1,4 +1,4 @@
-![Spark](idea01.jpg)
+![Spark](idea01.jpg)  
 Spark Develop environment Build
 ====
 1.版本信息
