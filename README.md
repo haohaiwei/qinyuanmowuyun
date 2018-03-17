@@ -6,7 +6,6 @@ Spark Develop environment Build
 * Idea 2017.6  
 * java 1.8_161  
 * maven 3.3.9  
-**工具下载ftp://192.168.1.221/development/**  
 
 2.修改maven源为国内源
 ---
