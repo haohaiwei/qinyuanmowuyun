@@ -18,7 +18,7 @@ Spark Cluster envirnonment Build
 
 3.环境搭建  
 ---
-本次只写Spark搭建，hadoop请参考../Hadoop/README.md
+本次只写Spark搭建，hadoop请参考[Hadoop](../Hadoop/README.md)
 将下载好的的spark的压缩包上传到hadoop-2节点  
 scala上传到hadoop-2，hadoop-3,hadoop-4,hadoop-5节点  
 2,3,4,5节点执行  
