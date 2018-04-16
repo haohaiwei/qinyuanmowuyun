@@ -749,3 +749,27 @@ kubectl create -f .
 配置dashboard   
 ```bash
 wget https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+```
+修改如下：  
+```yaml
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    k8s-app: kubernetes-dashboard
+  name: kubernetes-dashboard
+  namespace: kube-system
+spec:
+  type: NodePort
+  ports:
+    - port: 443
+      targetPort: 8443
+  selector:
+    k8s-app: kubernetes-dashboard
+```   
+
+```bash
+kubectl create -f kubernetes-dashboard.yaml
+kubectl get pod -n kube-system -o wide
+#查看pod所在节点
+```
