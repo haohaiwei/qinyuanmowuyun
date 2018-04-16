@@ -21,7 +21,7 @@ Hbase Environment Build and Spark operate Hbase
 3.集群配置  
 ---  
 
-Hadoop参考<http://192.168.1.3/root/Hadoop.git>  
+Hadoop集群参考[hadoop](../Hadoop/Readme.md)  
 官网下载hbase-1.2.4-bin.tar.gz解压  
 ```bash
 tar -zxf hbase-1.2.4-bin.tar.gz -C /usr/local/
