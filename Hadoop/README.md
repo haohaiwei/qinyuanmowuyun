@@ -398,6 +398,12 @@ hadoop-daemon.sh start namenode
 hdfs namenode -bootstrapStandby
 hadoop-daemon.sh start namenode
 ```
+hadoop-1和hadoop-4节点  
+
+```bash
+hadoop-daemon.sh start zkfc
+```
+
 datanode节点(hadoop-1,hadoop-2,hadoop-3,hadoop-4,hadoop-5)
 ```bash
 hadoop-daemon.sh start datanode
