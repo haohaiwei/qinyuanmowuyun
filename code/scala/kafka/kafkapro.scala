@@ -50,11 +50,11 @@ object kafkapro {
       event
         .put("uid", UUID.randomUUID())//随机生成用户id
         .put("event_time", System.currentTimeMillis.toString) //记录时间发生时间
-        .put("city_no", getcityno) //设备类型
-        .put("line_no", line_no) //点击次数
-        .put("dept_no",dept_no)
-        .put("group_no",group_no)
-        .put("fila_no",fila_no)
+        .put("city_no", getcityno) //城市号
+        .put("line_no", line_no) //线路号
+        .put("dept_no",dept_no) //部门代码
+        .put("group_no",group_no) //组代码
+        .put("fila_no",fila_no) //次数
 
 
       // produce event message

@@ -18,6 +18,7 @@ Hadoop environment for test
 * hadoop-4  datanode Secondnamenode NM DFSZKFailoverController  
 * hadoop-5  datanode zookeeper journalnode NM SecondRM  
 * 每个节点添加2块盘作为hdfs 数据盘  
+
 3.基础环境搭建  
 ---
 * 安装操作系统并为机器配置IP（省略）  
