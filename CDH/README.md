@@ -4,11 +4,12 @@ CDH集群安装
 基础环境信息  
 ---  
 
-OS --> CentOS 7.4
-CDH --> 5.13.3
-JDK --> 1.8.161
-MariaDB --> 10.1.32
-Spark --> 2.3.0
+* OS --> CentOS 7.4
+* CDH --> 5.13.3
+* JDK --> 1.8.161
+* MariaDB --> 10.1.32
+* Spark --> 2.3.0  
+
 集群角色信息规划  
 ---  
 
@@ -200,7 +201,9 @@ Vi /etc/fstab
 ```bash
 mount -a
 ```
-四、	CDH安装  
+CDH安装  
+--- 
+
 1.	安装包准备（tm-cdh-11）节点  
 ```bash
 tar -zxf cloudera-manager-centos7-cm5.13.3_x86_64.tar.gz -C /opt/
