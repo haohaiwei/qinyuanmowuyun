@@ -1,4 +1,4 @@
-Spark Cluster envirnonment Build  
+Spark HA Cluster envirnonment Build  
 ===  
 
 1.版本信息  
@@ -61,7 +61,8 @@ export SPARK_MASTER_PORT=7077
 export SPARK_MASTER_WEBUI_PORT=7070  
 export SPARK_WORKER_CORES=2  
 export SPARK_WORKER_MEMORY=1024m  
-export SPARK_WORKER_INSTANCES=2  
+export SPARK_WORKER_INSTANCES=2
+export SPARK_DAEMON_JAVA_OPTS="-Dspark.deploy.recoveryMode=ZOOKEEPER -Dspark.deploy.zookeeper.url=hadoop-2:2181,hadoop-3:2181,hadoop-5:2181 -Dspark.deploy.zookeeper.dir=/spark"
 export SPARK_CLASSPATH=$HBASE_HOME/lib/hbase-protocol-1.2.4.jar:$HBASE_HOME/lib/hbase-common-1.2.4.jar:$HBASE_HOME/lib/htrace-core-3.1.0-incubating.jar:$HBAS
 E_HOME/lib/hbase-server-1.2.4.jar:$HBASE_HOME/lib/hbase-client-1.2.4.jar:$HBASE_HOME/lib/metrics-core-2.2.0.jar:$SPARK_CLASSPATH  
 export SPARK_LOCAL_DIR="/mnt/spark/tmp"  
@@ -75,16 +76,21 @@ PARK_HOME/logs/gc.log -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection
 for i in $[,3,4,5];do scp -rq /usr/local/spark/ root@hadoop-$i:/usr/local/;done
 /usr/local/spark/spark-2.2.1-bin-hadoop2.7/sbin/start-all.sh
 ```
+hadoop-3节点  
+```bash
+/usr/local/spark/spark-2.2.1-bin-hadoop2.7/sbin/start-master.sh
+```  
 
 测试  
----
+---  
+
 
 hadoop-2节点
 自己写一个测试程序提交  
 standalone模式
 
 ```bash
-spark-submit --class kafkademo test.jar --master hadoop-2:7077
+spark-submit --class kafkademo test.jar --master hadoop-2:7077,hadoop-3:7077
 ```
 
 yarn模式  
