@@ -97,7 +97,7 @@ node.master: true
 node.data: true
 path.data: /home/es/data
 path.logs: /home/es/log
-bootstrap.memory_lock: true
+bootstrap.memory_lock: false
 bootstrap.system_call_filter: false
 network.host: 192.168.1.116
 http.port: 9200
@@ -112,7 +112,7 @@ node.master: false
 node.data: true
 path.data: /home/es/data
 path.logs: /home/es/log
-bootstrap.memory_lock: true
+bootstrap.memory_lock: false
 bootstrap.system_call_filter: false
 network.host: 192.168.1.117
 http.port: 9200
