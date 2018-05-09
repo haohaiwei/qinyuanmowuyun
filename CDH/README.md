@@ -12,7 +12,7 @@ CDH集群安装
 
 集群角色信息规划  
 ---  
-[img](img/cdh.png)
+![img](img/cdh.png)
 基础环境配置  
 ---  
 
