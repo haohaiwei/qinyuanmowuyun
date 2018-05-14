@@ -304,4 +304,91 @@ KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESU
 735a83",NAME="asm-disk5", OWNER="grid", GROUP="asmadmin", MODE="0660"
 ```
 
+多路径绑定配置  
+```vim
+multipath {
+                wwid                    360050767008080096800000000000049
+                alias                   RAC_DATA_01
+        }
+        multipath {
+                wwid                    36005076700808009680000000000004d
+                alias                   RAC_DATA_02
+        }
+        multipath {
+                wwid                    360050767008080096800000000000051
+                alias                   RAC_DATA_03
+        }
+        multipath {
+                wwid                    360050767008080096800000000000055
+                alias                   RAC_DATA_04
+        }
+        multipath {
+                wwid                    360050767008080096800000000000059
+                alias                   RAC_DATA_05
+        }
+        multipath {
+                wwid                    36005076700808009680000000000002d
+                alias                   RAC_DATA_06
+        }
+        multipath {
+                wwid                    360050767008080096800000000000031
+                alias                   RAC_DATA_07
+        }
+        multipath {
+                wwid                    360050767008080096800000000000035
+                alias                   RAC_DATA_08
+        }
+        multipath {
+                wwid                    360050767008080096800000000000039
+                alias                   RAC_DATA_09
+        }
+        multipath {
+                wwid                    36005076700808009680000000000003d
+                alias                   RAC_DATA_10
+        }
+        multipath {
+                wwid                    360050767008080096800000000000041
+                alias                   RAC_VOTEDISK_01
+        }
+        multipath {
+                wwid                    360050767008080096800000000000045
+                alias                   RAC_VOTEDISK_02
+        }
+       
+
+        multipath {
+                wwid                    36000d7780000394d22c054bc122c83a8
+                alias                   FAL_voteDISK_03
+
+```
+udev绑定配置  
+
+```vim
+
+//
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-360050767008080096800000000000049",SYMLINK+="asm-toyo-disk01",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-36005076700808009680000000000004d",SYMLINK+="asm-toyo-disk02",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-360050767008080096800000000000051",SYMLINK+="asm-toyo-disk03",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-360050767008080096800000000000055",SYMLINK+="asm-toyo-disk04",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-360050767008080096800000000000059",SYMLINK+="asm-toyo-disk05",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-36005076700808009680000000000002d",SYMLINK+="asm-toyo-disk06",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-360050767008080096800000000000031",SYMLINK+="asm-toyo-disk07",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-360050767008080096800000000000035",SYMLINK+="asm-toyo-disk08",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-360050767008080096800000000000039",SYMLINK+="asm-toyo-disk09",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-36005076700808009680000000000003d",SYMLINK+="asm-toyo-disk10",OWNER="grid", GROUP="asmadmin", MO
+DE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-360050767008080096800000000000041",SYMLINK+="asm-toyo-votedisk01",OWNER="grid", GROUP="asmadmin"
+, MODE="0660"
+KERNEL=="dm-*",ENV{DM_UUID}=="mpath-360050767008080096800000000000045",SYMLINK+="asm-toyo-votedisk02",OWNER="grid", GROUP="asmadmin"
+, MODE="0660"
+```
 
