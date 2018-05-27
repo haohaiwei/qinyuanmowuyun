@@ -1,6 +1,6 @@
     attach-device                  从一个XML文件附加装置
     attach-disk                    附加磁盘设备
-    attach-interface               获得网络界面
+    attach-interface               获得网络界面 
     autostart                      自动开始一个域
     blkdeviotune                   设定或者查询块设备 I/O 调节参数。
     blkiotune                      获取或者数值 blkio 参数
