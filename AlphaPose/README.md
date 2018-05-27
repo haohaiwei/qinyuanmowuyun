@@ -19,7 +19,7 @@ bash Anaconda2-5.1.0-Linux-x86_64.sh
 source .bashrc
 ```
 按照提示即可  
-3.tensorflow安装  
+3.tensorflow安装   
 ---
 
 ```bash
