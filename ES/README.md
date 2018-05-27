@@ -158,7 +158,7 @@ python main.py ../kibana-5.6.3-linux-x86_64
 默认用户： elastic  
 密码： changme  
 
-登陆: IP:port  
+登陆: IP:port   
 
 界面如下：  
 ![img01](img/es01.png)
