@@ -1,7 +1,7 @@
 ![Hbase](Hbase.png)
 Hbase Environment Build and Spark operate Hbase
 ======
-1.OS信息  
+1.OS信息   
 ---
 
 * OS-->centos7.2  
