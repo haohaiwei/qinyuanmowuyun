@@ -1,7 +1,7 @@
 ![hadoop](hadoop.jpg)
 Hadoop environment for test
 ====
-1.版本组件选择
+1.版本组件选择  
 ---
 * OS-->CentOS7.2
 * jdk-->1.8_161
