@@ -93,7 +93,7 @@ standalone模式
 spark-submit --class kafkademo test.jar --master hadoop-2:7077,hadoop-3:7077
 ```
 
-yarn模式  
+yarn模式   
 ```bash
 spark-submit --class testhbase --master yarn --deploy-mode cluster test.jar
 ```
