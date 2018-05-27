@@ -28,7 +28,7 @@ setenforce 0
 ```
 时钟同步  
 ```bash
-yum install -y ntp
+yum install -y ntp 
 vi /etc/ntp.conf
 ```
 ```vim
