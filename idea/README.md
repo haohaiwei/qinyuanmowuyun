@@ -7,7 +7,7 @@ Spark Develop environment Build
 * java 1.8_161  
 * maven 3.3.9  
 
-2.修改maven源为国内源
+2.修改maven源为国内源  
 ---
 ![Spark](Setting.png)  
 
