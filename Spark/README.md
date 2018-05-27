@@ -102,6 +102,10 @@ spark-submit --class testhbase --master yarn --deploy-mode cluster test.jar
 需要注意的是打成jar包时，需要去掉.setMaster("spark://hadoop-2:7077")  
 
 ```scala
+/*
+a test demo for spark on hbase
+*/
+
 import org.apache.hadoop.hbase.{HBaseConfiguration, TableName}
 import org.apache.hadoop.hbase.client.{ConnectionFactory, Put}
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable
@@ -110,23 +114,27 @@ import org.apache.hadoop.hbase.util.Bytes
 import org.apache.hadoop.mapred.JobConf
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-
+#加载类
 
 object testhbase {
   def main(args: Array[String]): Unit = {
     val sc = new SparkContext(new SparkConf().setMaster("spark://hadoop-2:7077").setAppName("hbase"))
     val rdd = sc.makeRDD(Array(1)).flatMap(_ => 0 to 1000000)
+    #生成一个RDD
     rdd.foreachPartition(x => {
       val hbaseConf = HBaseConfiguration.create()
       hbaseConf.set("hbase.zookeeper.quorum", "hadoop-2,hadoop-3,hadoop-5")
       hbaseConf.set("hbase.zookeeper.property.clientPort", "2181")
       hbaseConf.set("hbase.defaults.for.version.skip", "true")
+      #定义Hbase配置
       val hbaseConn = ConnectionFactory.createConnection(hbaseConf)
       val table = hbaseConn.getTable(TableName.valueOf("word01"))
+      #获取hbase表名
       x.foreach(value => {
         var put = new Put(Bytes.toBytes(value.toString))
         put.addColumn(Bytes.toBytes("f1"), Bytes.toBytes("c1"), Bytes.toBytes(value.toString))
         table.put(put)
+	#调用put方法
         })
   })
  }
