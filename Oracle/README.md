@@ -1,6 +1,6 @@
 oracle linux 6.5 安装oracle 11g R2 rac集群  
 ===
-实验环境  
+实验环境   
 ---
 
 * 虚拟化软件virtualBox  
