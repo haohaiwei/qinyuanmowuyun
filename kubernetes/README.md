@@ -590,7 +590,7 @@ Documentation=http://docs.docker.io
 Environment="PATH=/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin"
 EnvironmentFile=-/run/flannel/subnet.env
 EnvironmentFile=-/run/flannel/docker
-ExecStart=/usr/local/bin/dockerd \
+ExecStart=/usr/local/bin/dockerd $DOCKER_NETWORK_OPTIONS\
   --exec-opt native.cgroupdriver=cgroupfs \
   --log-level=error \
   --log-driver=json-file 
@@ -765,6 +765,7 @@ spec:
   ports:
     - port: 443
       targetPort: 8443
+      nodePort: 8490
   selector:
     k8s-app: kubernetes-dashboard
 ```   
