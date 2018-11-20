@@ -390,6 +390,7 @@ wget https://dl.k8s.io/v1.8.10/kubernetes-client-linux-amd64.tar.gz
 tar -xzvf kubernetes-client-linux-amd64.tar.gz
 cd kubernetes/client/bin/
 chmod a+x kubernetes/client/bin/kube*
+cp kubernetes/client/bin/kubectl /usr/local/bin/
 ```
 创建/root/.kube/config   
 ```bash
