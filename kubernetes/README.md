@@ -453,7 +453,7 @@ After=etcd.service
 [Service]
 ExecStart=/usr/local/bin/kube-apiserver \
   --logtostderr=true \
-  --admission-control=NamespaceLifecycle,LimitRanger,ServiceAccount,DefaultStorageClass,ResourceQuota,NodeRestriion \
+  --admission-control=NamespaceLifecycle,LimitRanger,ServiceAccount,DefaultStorageClass,ResourceQuota \
   --advertise-address=192.168.1.50 \
   --bind-address=192.168.1.50 \
   --insecure-bind-address=192.168.1.50 \
