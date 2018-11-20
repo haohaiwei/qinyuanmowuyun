@@ -1,0 +1,244 @@
+2018-11-19 10:43:47,982 ERROR {'method': 'GET', 'st': 1542595427.819494, 'ip': '116.236.177.50', 'request_id': UUID('f0940078-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/', 'u_t_m': '162.54544258117676 ms'}
+2018-11-19 10:43:47,983 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,099 ERROR {'method': 'GET', 'st': 1542595428.0770712, 'ip': '116.236.177.50', 'request_id': UUID('f0bb4ea8-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/osroom-m.css?v=20180404041316', 'u_t_m': '21.83389663696289 ms'}
+2018-11-19 10:43:48,099 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,125 ERROR {'method': 'GET', 'st': 1542595428.1020029, 'ip': '116.236.177.50', 'request_id': UUID('f0bf1bfa-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/bootstrap.min.css?v=20180404041316', 'u_t_m': '22.849559783935547 ms'}
+2018-11-19 10:43:48,125 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,148 ERROR {'method': 'GET', 'st': 1542595428.12775, 'ip': '116.236.177.50', 'request_id': UUID('f0c3092c-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/style.css?v=20180404041316', 'u_t_m': '20.612716674804688 ms'}
+2018-11-19 10:43:48,148 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,172 ERROR {'method': 'GET', 'st': 1542595428.1513982, 'ip': '116.236.177.50', 'request_id': UUID('f0c6a500-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/bootstrapValidator.min.css?v=20180404041316', 'u_t_m': '20.7061767578125 ms'}
+2018-11-19 10:43:48,172 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,196 ERROR {'method': 'GET', 'st': 1542595428.1750534, 'ip': '116.236.177.50', 'request_id': UUID('f0ca4110-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/font-awesome.min.css?v=20180404041316', 'u_t_m': '21.18849754333496 ms'}
+2018-11-19 10:43:48,196 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,223 ERROR {'method': 'GET', 'st': 1542595428.199956, 'ip': '116.236.177.50', 'request_id': UUID('f0ce0dcc-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/osroom.css?v=20180404041316', 'u_t_m': '23.61011505126953 ms'}
+2018-11-19 10:43:48,224 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,248 ERROR {'method': 'GET', 'st': 1542595428.2270477, 'ip': '116.236.177.50', 'request_id': UUID('f0d23064-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/checkbox.css?v=20180404041316', 'u_t_m': '21.15178108215332 ms'}
+2018-11-19 10:43:48,248 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,273 ERROR {'method': 'GET', 'st': 1542595428.2519534, 'ip': '116.236.177.50', 'request_id': UUID('f0d5fce4-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/osroom.js?v=20180404041316', 'u_t_m': '20.89524269104004 ms'}
+2018-11-19 10:43:48,273 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,297 ERROR {'method': 'GET', 'st': 1542595428.2762377, 'ip': '116.236.177.50', 'request_id': UUID('f0d9b1a4-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/vue.min.js?v=20180404041316', 'u_t_m': '21.100997924804688 ms'}
+2018-11-19 10:43:48,297 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,320 ERROR {'method': 'GET', 'st': 1542595428.3002484, 'ip': '116.236.177.50', 'request_id': UUID('f0dd5b88-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/jquery.min.js?v=20180404041316', 'u_t_m': '20.011425018310547 ms'}
+2018-11-19 10:43:48,320 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,343 ERROR {'method': 'GET', 'st': 1542595428.322864, 'ip': '116.236.177.50', 'request_id': UUID('f0e0cf8e-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/plugins/popper.min.js?v=20180404041316', 'u_t_m': '20.168781280517578 ms'}
+2018-11-19 10:43:48,343 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,367 ERROR {'method': 'GET', 'st': 1542595428.3467128, 'ip': '116.236.177.50', 'request_id': UUID('f0e47274-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrap.min.js?v=20180404041316', 'u_t_m': '20.066022872924805 ms'}
+2018-11-19 10:43:48,367 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,393 ERROR {'method': 'GET', 'st': 1542595428.3716862, 'ip': '116.236.177.50', 'request_id': UUID('f0e841f6-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrapValidator.min.js?v=20180404041316', 'u_t_m': '21.990060806274414 ms'}
+2018-11-19 10:43:48,394 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,421 ERROR {'method': 'GET', 'st': 1542595428.3969285, 'ip': '116.236.177.50', 'request_id': UUID('f0ec1cc2-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/app.js?v=20180404041316', 'u_t_m': '23.88763427734375 ms'}
+2018-11-19 10:43:48,421 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,447 ERROR {'method': 'GET', 'st': 1542595428.42419, 'ip': '116.236.177.50', 'request_id': UUID('f0f04518-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/sys_imgs/osroom-logo.png?h=40', 'u_t_m': '23.142576217651367 ms'}
+2018-11-19 10:43:48,447 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,564 ERROR {'method': 'GET', 'st': 1542595428.543704, 'ip': '116.236.177.50', 'request_id': UUID('f102817e-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/static/sys_imgs/osroom-logo.ico', 'u_t_m': '20.827054977416992 ms'}
+2018-11-19 10:43:48,565 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,663 ERROR {'method': 'GET', 'st': 1542595428.6406467, 'ip': '116.236.177.50', 'request_id': UUID('f1114c86-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/apple-touch-icon-precomposed.png', 'u_t_m': '22.298574447631836 ms'}
+2018-11-19 10:43:48,663 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:48,767 ERROR {'method': 'GET', 'st': 1542595428.7444158, 'ip': '116.236.177.50', 'request_id': UUID('f12121f6-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/apple-touch-icon.png', 'u_t_m': '22.570371627807617 ms'}
+2018-11-19 10:43:48,767 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,203 ERROR {'method': 'GET', 'st': 1542595433.1810036, 'ip': '116.236.177.50', 'request_id': UUID('f3c61a24-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/', 'u_t_m': '22.451400756835938 ms'}
+2018-11-19 10:43:53,204 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,369 ERROR {'method': 'GET', 'st': 1542595433.3371444, 'ip': '116.236.177.50', 'request_id': UUID('f3dded34-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/bootstrapValidator.min.css?v=20180404041316', 'u_t_m': '31.644582748413086 ms'}
+2018-11-19 10:43:53,369 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,398 ERROR {'method': 'GET', 'st': 1542595433.3724322, 'ip': '116.236.177.50', 'request_id': UUID('f3e34fd6-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/bootstrap.min.css?v=20180404041316', 'u_t_m': '26.068687438964844 ms'}
+2018-11-19 10:43:53,398 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,424 ERROR {'method': 'GET', 'st': 1542595433.4017272, 'ip': '116.236.177.50', 'request_id': UUID('f3e7c822-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/osroom.css?v=20180404041316', 'u_t_m': '22.54343032836914 ms'}
+2018-11-19 10:43:53,424 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,447 ERROR {'method': 'GET', 'st': 1542595433.427221, 'ip': '116.236.177.50', 'request_id': UUID('f3ebabe0-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/checkbox.css?v=20180404041316', 'u_t_m': '19.704341888427734 ms'}
+2018-11-19 10:43:53,447 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,469 ERROR {'method': 'GET', 'st': 1542595433.4503553, 'ip': '116.236.177.50', 'request_id': UUID('f3ef3382-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/font-awesome.min.css?v=20180404041316', 'u_t_m': '19.222021102905273 ms'}
+2018-11-19 10:43:53,469 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,493 ERROR {'method': 'GET', 'st': 1542595433.4723551, 'ip': '116.236.177.50', 'request_id': UUID('f3f28f0a-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/osroom-m.css?v=20180404041316', 'u_t_m': '20.98846435546875 ms'}
+2018-11-19 10:43:53,493 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,514 ERROR {'method': 'GET', 'st': 1542595433.4958377, 'ip': '116.236.177.50', 'request_id': UUID('f3f62412-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/vue.min.js?v=20180404041316', 'u_t_m': '18.136024475097656 ms'}
+2018-11-19 10:43:53,514 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,535 ERROR {'method': 'GET', 'st': 1542595433.5167303, 'ip': '116.236.177.50', 'request_id': UUID('f3f9548e-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/style.css?v=20180404041316', 'u_t_m': '18.794775009155273 ms'}
+2018-11-19 10:43:53,535 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,559 ERROR {'method': 'GET', 'st': 1542595433.5386484, 'ip': '116.236.177.50', 'request_id': UUID('f3fcac60-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/jquery.min.js?v=20180404041316', 'u_t_m': '20.17974853515625 ms'}
+2018-11-19 10:43:53,559 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,582 ERROR {'method': 'GET', 'st': 1542595433.5615804, 'ip': '116.236.177.50', 'request_id': UUID('f4002c46-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/osroom.js?v=20180404041316', 'u_t_m': '20.1718807220459 ms'}
+2018-11-19 10:43:53,582 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,603 ERROR {'method': 'GET', 'st': 1542595433.5845976, 'ip': '116.236.177.50', 'request_id': UUID('f403af42-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/plugins/popper.min.js?v=20180404041316', 'u_t_m': '18.485069274902344 ms'}
+2018-11-19 10:43:53,603 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,625 ERROR {'method': 'GET', 'st': 1542595433.6059926, 'ip': '116.236.177.50', 'request_id': UUID('f406f31e-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrap.min.js?v=20180404041316', 'u_t_m': '19.489049911499023 ms'}
+2018-11-19 10:43:53,625 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,646 ERROR {'method': 'GET', 'st': 1542595433.6281831, 'ip': '116.236.177.50', 'request_id': UUID('f40a55fe-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrapValidator.min.js?v=20180404041316', 'u_t_m': '18.28765869140625 ms'}
+2018-11-19 10:43:53,646 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,668 ERROR {'method': 'GET', 'st': 1542595433.649246, 'ip': '116.236.177.50', 'request_id': UUID('f40d8cc4-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/app.js?v=20180404041316', 'u_t_m': '18.57733726501465 ms'}
+2018-11-19 10:43:53,668 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:43:53,691 ERROR {'method': 'GET', 'st': 1542595433.6705875, 'ip': '116.236.177.50', 'request_id': UUID('f410ce34-eba4-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/sys_imgs/osroom-logo.png?h=40', 'u_t_m': '20.321369171142578 ms'}
+2018-11-19 10:43:53,691 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,491 ERROR {'method': 'GET', 'st': 1542595497.470787, 'ip': '116.236.177.50', 'request_id': UUID('1a17f1ca-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/', 'u_t_m': '20.317792892456055 ms'}
+2018-11-19 10:44:57,491 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,611 ERROR {'method': 'GET', 'st': 1542595497.591454, 'ip': '116.236.177.50', 'request_id': UUID('1a2a5b58-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/bootstrap.min.css?v=20180404041316', 'u_t_m': '19.805431365966797 ms'}
+2018-11-19 10:44:57,611 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,669 ERROR {'method': 'GET', 'st': 1542595497.6497357, 'ip': '116.236.177.50', 'request_id': UUID('1a333fd4-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/font-awesome.min.css?v=20180404041316', 'u_t_m': '19.263029098510742 ms'}
+2018-11-19 10:44:57,669 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,690 ERROR {'method': 'GET', 'st': 1542595497.671682, 'ip': '116.236.177.50', 'request_id': UUID('1a369904-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/style.css?v=20180404041316', 'u_t_m': '18.599748611450195 ms'}
+2018-11-19 10:44:57,690 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,711 ERROR {'method': 'GET', 'st': 1542595497.6928904, 'ip': '116.236.177.50', 'request_id': UUID('1a39d592-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/bootstrapValidator.min.css?v=20180404041316', 'u_t_m': '18.473148345947266 ms'}
+2018-11-19 10:44:57,711 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,732 ERROR {'method': 'GET', 'st': 1542595497.713972, 'ip': '116.236.177.50', 'request_id': UUID('1a3d0d16-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/osroom.css?v=20180404041316', 'u_t_m': '18.152475357055664 ms'}
+2018-11-19 10:44:57,732 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,753 ERROR {'method': 'GET', 'st': 1542595497.7347248, 'ip': '116.236.177.50', 'request_id': UUID('1a4037ca-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/osroom-m.css?v=20180404041316', 'u_t_m': '18.5854434967041 ms'}
+2018-11-19 10:44:57,753 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,776 ERROR {'method': 'GET', 'st': 1542595497.7569346, 'ip': '116.236.177.50', 'request_id': UUID('1a439b36-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/checkbox.css?v=20180404041316', 'u_t_m': '19.59395408630371 ms'}
+2018-11-19 10:44:57,776 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,797 ERROR {'method': 'GET', 'st': 1542595497.7792811, 'ip': '116.236.177.50', 'request_id': UUID('1a470410-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/vue.min.js?v=20180404041316', 'u_t_m': '18.37897300720215 ms'}
+2018-11-19 10:44:57,798 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,818 ERROR {'method': 'GET', 'st': 1542595497.8004503, 'ip': '116.236.177.50', 'request_id': UUID('1a4a3f04-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/jquery.min.js?v=20180404041316', 'u_t_m': '18.193483352661133 ms'}
+2018-11-19 10:44:57,818 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,839 ERROR {'method': 'GET', 'st': 1542595497.8211753, 'ip': '116.236.177.50', 'request_id': UUID('1a4d688c-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/osroom.js?v=20180404041316', 'u_t_m': '18.12005043029785 ms'}
+2018-11-19 10:44:57,839 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,860 ERROR {'method': 'GET', 'st': 1542595497.842603, 'ip': '116.236.177.50', 'request_id': UUID('1a50ad8a-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/plugins/popper.min.js?v=20180404041316', 'u_t_m': '17.80390739440918 ms'}
+2018-11-19 10:44:57,860 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,882 ERROR {'method': 'GET', 'st': 1542595497.8628135, 'ip': '116.236.177.50', 'request_id': UUID('1a53c31c-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/sys_imgs/osroom-logo.png?h=40', 'u_t_m': '19.723176956176758 ms'}
+2018-11-19 10:44:57,882 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,935 ERROR {'method': 'GET', 'st': 1542595497.9159746, 'ip': '116.236.177.50', 'request_id': UUID('1a5bdfc0-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrapValidator.min.js?v=20180404041316', 'u_t_m': '19.55246925354004 ms'}
+2018-11-19 10:44:57,935 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,959 ERROR {'method': 'GET', 'st': 1542595497.9389913, 'ip': '116.236.177.50', 'request_id': UUID('1a5f6316-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrap.min.js?v=20180404041316', 'u_t_m': '20.549535751342773 ms'}
+2018-11-19 10:44:57,959 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:57,981 ERROR {'method': 'GET', 'st': 1542595497.9621983, 'ip': '116.236.177.50', 'request_id': UUID('1a62ed56-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/app.js?v=20180404041316', 'u_t_m': '18.654823303222656 ms'}
+2018-11-19 10:44:57,981 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:58,053 ERROR {'method': 'GET', 'st': 1542595498.031443, 'ip': '116.236.177.50', 'request_id': UUID('1a6d7eb0-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrapValidator.min.js?v=20180404041316', 'u_t_m': '21.776676177978516 ms'}
+2018-11-19 10:44:58,053 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:58,151 ERROR {'method': 'GET', 'st': 1542595498.1305797, 'ip': '116.236.177.50', 'request_id': UUID('1a7c9eae-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/app.js?v=20180404041316', 'u_t_m': '20.201683044433594 ms'}
+2018-11-19 10:44:58,151 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:44:58,264 ERROR {'method': 'GET', 'st': 1542595498.2434037, 'ip': '116.236.177.50', 'request_id': UUID('1a8dd5de-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/static/sys_imgs/osroom-logo.ico', 'u_t_m': '20.774126052856445 ms'}
+2018-11-19 10:44:58,264 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:18,924 ERROR {'method': 'GET', 'st': 1542595518.9020941, 'ip': '116.236.177.50', 'request_id': UUID('26de1a1a-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/', 'u_t_m': '21.738052368164062 ms'}
+2018-11-19 10:45:18,924 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,003 ERROR {'method': 'GET', 'st': 1542595518.9809368, 'ip': '116.236.177.50', 'request_id': UUID('26ea2256-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/bootstrap.min.css?v=20180404041316', 'u_t_m': '22.408723831176758 ms'}
+2018-11-19 10:45:19,003 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,031 ERROR {'method': 'GET', 'st': 1542595519.0097594, 'ip': '116.236.177.50', 'request_id': UUID('26ee87ba-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/font-awesome.min.css?v=20180404041316', 'u_t_m': '21.819353103637695 ms'}
+2018-11-19 10:45:19,031 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,056 ERROR {'method': 'GET', 'st': 1542595519.0347278, 'ip': '116.236.177.50', 'request_id': UUID('26f25714-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/bootstrapValidator.min.css?v=20180404041316', 'u_t_m': '21.892786026000977 ms'}
+2018-11-19 10:45:19,057 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,083 ERROR {'method': 'GET', 'st': 1542595519.061779, 'ip': '116.236.177.50', 'request_id': UUID('26f677b8-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/style.css?v=20180404041316', 'u_t_m': '21.316051483154297 ms'}
+2018-11-19 10:45:19,083 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,108 ERROR {'method': 'GET', 'st': 1542595519.0864868, 'ip': '116.236.177.50', 'request_id': UUID('26fa3cd6-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/osroom.css?v=20180404041316', 'u_t_m': '21.58498764038086 ms'}
+2018-11-19 10:45:19,108 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,132 ERROR {'method': 'GET', 'st': 1542595519.1111608, 'ip': '116.236.177.50', 'request_id': UUID('26fe0122-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/osroom-m.css?v=20180404041316', 'u_t_m': '21.35491371154785 ms'}
+2018-11-19 10:45:19,132 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,157 ERROR {'method': 'GET', 'st': 1542595519.1352203, 'ip': '116.236.177.50', 'request_id': UUID('2701acd2-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/css/checkbox.css?v=20180404041316', 'u_t_m': '22.175073623657227 ms'}
+2018-11-19 10:45:19,157 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,182 ERROR {'method': 'GET', 'st': 1542595519.1603734, 'ip': '116.236.177.50', 'request_id': UUID('27058316-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/vue.min.js?v=20180404041316', 'u_t_m': '21.449565887451172 ms'}
+2018-11-19 10:45:19,182 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,206 ERROR {'method': 'GET', 'st': 1542595519.1850946, 'ip': '116.236.177.50', 'request_id': UUID('270948b6-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/jquery.min.js?v=20180404041316', 'u_t_m': '20.95627784729004 ms'}
+2018-11-19 10:45:19,206 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,230 ERROR {'method': 'GET', 'st': 1542595519.209272, 'ip': '116.236.177.50', 'request_id': UUID('270cf98e-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/osroom.js?v=20180404041316', 'u_t_m': '20.768404006958008 ms'}
+2018-11-19 10:45:19,230 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,255 ERROR {'method': 'GET', 'st': 1542595519.2328506, 'ip': '116.236.177.50', 'request_id': UUID('27109314-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/plugins/popper.min.js?v=20180404041316', 'u_t_m': '22.52364158630371 ms'}
+2018-11-19 10:45:19,255 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,279 ERROR {'method': 'GET', 'st': 1542595519.2581894, 'ip': '116.236.177.50', 'request_id': UUID('27147010-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/sys_imgs/osroom-logo.png?h=40', 'u_t_m': '21.022319793701172 ms'}
+2018-11-19 10:45:19,279 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,328 ERROR {'method': 'GET', 'st': 1542595519.3063798, 'ip': '116.236.177.50', 'request_id': UUID('271bca7c-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrapValidator.min.js?v=20180404041316', 'u_t_m': '21.723508834838867 ms'}
+2018-11-19 10:45:19,328 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,351 ERROR {'method': 'GET', 'st': 1542595519.331133, 'ip': '116.236.177.50', 'request_id': UUID('271f91a2-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrap.min.js?v=20180404041316', 'u_t_m': '20.275354385375977 ms'}
+2018-11-19 10:45:19,351 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,375 ERROR {'method': 'GET', 'st': 1542595519.3540409, 'ip': '116.236.177.50', 'request_id': UUID('27231020-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/app.js?v=20180404041316', 'u_t_m': '21.103382110595703 ms'}
+2018-11-19 10:45:19,375 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,454 ERROR {'method': 'GET', 'st': 1542595519.4309301, 'ip': '116.236.177.50', 'request_id': UUID('272ecbd6-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/bootstrapValidator.min.js?v=20180404041316', 'u_t_m': '23.282527923583984 ms'}
+2018-11-19 10:45:19,454 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,565 ERROR {'method': 'GET', 'st': 1542595519.5360572, 'ip': '116.236.177.50', 'request_id': UUID('273ed6ca-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/theme/static/js/app.js?v=20180404041316', 'u_t_m': '29.41298484802246 ms'}
+2018-11-19 10:45:19,565 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:45:19,674 ERROR {'method': 'GET', 'st': 1542595519.6504912, 'ip': '116.236.177.50', 'request_id': UUID('27504c34-eba5-11e8-97c8-fa163e95821a'), 'url': 'http://123.59.185.65:5000/static/sys_imgs/osroom-logo.ico', 'u_t_m': '24.037837982177734 ms'}
+2018-11-19 10:45:19,675 ERROR 'Conlections' object has no attribute 'sys_urls'
+NoneType
+2018-11-19 10:48:38,132 ERROR {'u_t_m': '22.309541702270508 ms', 'method': 'POST', 'url': 'http://123.59.185.65:5000/api/sign-up', 'ip': '116.236.177.50', 'st': 1542595718.1096625, 'request_id': UUID('9d9ac414-eba5-11e8-a0b4-fa163e95821a')}
+2018-11-19 10:48:38,132 ERROR 'AnonymousUser' object has no attribute 'is_staff'
+NoneType
+2018-11-19 11:07:37,797 ERROR {'exceptione': AttributeError("'Request' object has no attribute 'c_method'",), 'type': 'weblogger error'}
+2018-11-19 14:18:55,925 ERROR {'method': 'POST', 'u_t_m': '31.038284301757812 ms', 'url': 'http://123.59.185.65:5000/api/sign-up', 'st': 1542608335.8943992, 'request_id': UUID('fe63ebfa-ebc2-11e8-bf61-fa163e95821a'), 'ip': '116.236.177.50'}
+2018-11-19 14:18:55,925 ERROR 'AnonymousUser' object has no attribute 'role_id'
+NoneType
+2018-11-19 14:21:44,348 ERROR {'method': 'POST', 'u_t_m': '17.091751098632812 ms', 'url': 'http://123.59.185.65:5000/api/sign-up', 'st': 1542608504.3315344, 'request_id': UUID('62c96390-ebc3-11e8-bf61-fa163e95821a'), 'ip': '116.236.177.50'}
+2018-11-19 14:21:44,348 ERROR 'AnonymousUser' object has no attribute 'role_id'
+NoneType
+2018-11-19 14:28:22,921 ERROR {'method': 'GET', 'ip': '116.236.177.50', 'user_id': '5bf2574d7a68f0266af00c78', 'request_id': UUID('505a23ba-ebc4-11e8-bb3b-fa163e95821a'), 'u_t_m': '20.904064178466797 ms', 'st': 1542608902.9001913, 'url': 'http://123.59.185.65:5000/api/sign-out'}
+2018-11-19 14:28:22,921 ERROR 'AnonymousUser' object is not callable
+NoneType
+2018-11-19 14:28:27,602 ERROR {'method': 'GET', 'ip': '116.236.177.50', 'request_id': UUID('5325aa92-ebc4-11e8-bb3b-fa163e95821a'), 'u_t_m': '12.798786163330078 ms', 'st': 1542608907.5894678, 'url': 'http://123.59.185.65:5000/api/sign-out'}
+2018-11-19 14:28:27,602 ERROR 'AnonymousUser' object is not callable
+NoneType
+2018-11-19 16:58:44,525 ERROR {'method': 'GET', 'ip': '127.0.0.1', 'user_id': '5bf228f97a68f015a0d9ec67', 'request_id': UUID('51a66854-ebd9-11e8-bb3b-fa163e95821a'), 'u_t_m': '15.857934951782227 ms', 'st': 1542617924.5090652, 'url': 'http://py.echosoul.cn/api/sign-out'}
+2018-11-19 16:58:44,525 ERROR 'AnonymousUser' object is not callable
+NoneType
+2018-11-19 17:05:06,386 ERROR {'method': 'GET', 'ip': '116.236.177.50', 'user_id': '5bf228f97a68f015a0d9ec67', 'request_id': UUID('3541d6ca-ebda-11e8-bb3b-fa163e95821a'), 'u_t_m': '15.798807144165039 ms', 'st': 1542618306.3704882, 'url': 'http://123.59.185.65:5000/api/sign-out'}
+2018-11-19 17:05:06,386 ERROR 'AnonymousUser' object is not callable
+NoneType
+2018-11-19 17:41:13,024 ERROR {'st': 1542620473.0081515, 'method': 'GET', 'url': 'http://py.echosoul.cn/api/sign-out', 'request_id': UUID('40ac81f4-ebdf-11e8-aefb-fa163e95821a'), 'u_t_m': '15.766620635986328 ms', 'user_id': '5bf2574d7a68f0266af00c78', 'ip': '127.0.0.1'}
+2018-11-19 17:41:13,024 ERROR 'AnonymousUser' object is not callable
+NoneType
