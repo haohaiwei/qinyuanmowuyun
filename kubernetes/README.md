@@ -70,7 +70,7 @@ echo  "sleep 60 && /sbin/iptables -P FORWARD ACCEPT" >> /etc/rc.local
 安装依赖  
 ```bash
 yum install -y epel-release
-yum install -y yum-utils device-mapper-persistent-data lvm2 net-tools conntrack-tools wget
+yum install -y yum-utils device-mapper-persistent-data lvm2 net-tools  socat conntrack-tools wget
 ```
 3.创建 CA 证书和秘钥  
 ---  
