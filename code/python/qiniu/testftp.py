@@ -18,8 +18,6 @@ for file in os.listdir(path):
 
 def ftp_upload(filename):
     bufsize = 1024
-    #    ftp.connect("10.32.254.15", "21" )
-    #    ftp.login("root", "testftp199202")
     fp = open(filename, 'rb')
     ftp.storbinary('STOR ' + filename, fp, bufsize)
 
