@@ -39,3 +39,6 @@ except botocore.exceptions.ClientError as e:
         print("The object does not exist.")
     else:
         raise
+
+multipart_upload = s3resource.MultipartUpload(s3bucket,'testfiles01','id')
+print(multipart_upload)
