@@ -5,12 +5,12 @@ import boto3
 import botocore
 
 # some configs
-s3endpoint = 'http://s3-qos.pocdemo.qiniu.io'
+s3endpoint = '< endpoint >'
 s3region = 'cn-east-1'
-s3bucket = 'test'
-s3object = 's3test'
-s3accessKeyId = 'lbuHoKg7upFRKlnzXaKdEgbkpngMnVMuvY3iNp5h'
-s3accessKeySecret = 'W-Valx4J2rhVXuv17HQtiG7xvaKgyODtDFsvYQ22'
+s3bucket = '< your bucketname >'
+s3object = '< your objectname >'
+s3accessKeyId = '< your ak >'
+s3accessKeySecret = '< your sk >'
 
 
 # use resource
