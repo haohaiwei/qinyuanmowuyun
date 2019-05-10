@@ -1,23 +1,23 @@
 Spark HA Cluster envirnonment Build  
 ===  
 
-1. 版本信息  
----
+# 1. 版本信息  
+
 * OS-->centos7.2
 * Java-->1.8_161
 * Hadoop-->2.7.3
 * Spark-->2.2.1  
 
-2. 节点信息以及角色分配   
----
+# 2. 节点信息以及角色分配   
+
 * hadoop-1 datanode namenode DFSZKFailoverController 
 * hadoop-2 datanode zookeeper journalnode NM Master
 * hadoop-3 datanode zookeeper journalnode RM NM worker  
 * hadoop-4 datanode Secondnamenode NM DFSZKFailoverController worker  
 * hadoop-5 datanode zookeeper journalnode NM SecondRM worker  
 
-3. 环境搭建  
----
+# 3. 环境搭建  
+
 本次只写Spark搭建，hadoop请参考[Hadoop](../Hadoop/README.md)
 将下载好的的spark的压缩包上传到hadoop-2节点  
 scala上传到hadoop-2，hadoop-3,hadoop-4,hadoop-5节点  
@@ -81,9 +81,7 @@ hadoop-3节点
 /usr/local/spark/spark-2.2.1-bin-hadoop2.7/sbin/start-master.sh
 ```  
 
-4. 测试  
----  
-
+# 4. 测试  
 
 hadoop-2节点
 自己写一个测试程序提交  

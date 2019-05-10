@@ -1,81 +1,73 @@
 ![hadoop](hadoop.jpg)
 Hadoop environment for test
 ====
-1. 版本组件选择  
----
+# 1. 版本组件选择  
+
 * OS-->CentOS7.2
 * jdk-->1.8_161
 * hadoop-->2.7.3
 * zookeeper-->3.4.8  
 
-2. 角色规划
----
+# 2. 角色规划
+
 * hadoop-1  datanode namenode DFSZKFailoverController  
-
 * hadoop-2  datanode zookeeper journalnode NM  
-
 * hadoop-3  datanode zookeeper journalnode RM NM  
 * hadoop-4  datanode Secondnamenode NM DFSZKFailoverController  
 * hadoop-5  datanode zookeeper journalnode NM SecondRM  
 * 每个节点添加2块盘作为hdfs 数据盘  
 
-3. 基础环境搭建  
----
+# 3. 基础环境搭建  
+
 * 安装操作系统并为机器配置IP（省略）  
  
 节点1上
 ```bash
 hostnamectl set-hostname hadoop-1  
-
 systemctl stop firewalld && systemctl disable firewalld  
-
 sed -i 's/enforcing/disabled/g' /etc/selinux/config  
-
 setenforce 0   
 ```
 
 节点2上
+
 ```bash
 hostnamectl set-hostname hadoop-2  
-
 systemctl stop firewalld && systemctl disable firewalld  
-
 sed -i 's/enforcing/disabled/g' /etc/selinux/config  
-
 setenforce 0  
 ```
+
 节点3上  
+
 ```bash
 hostnamectl set-hostname hadoop-3  
-
 systemctl stop firewalld && systemctl disable firewalld  
-
 sed -i 's/enforcing/disabled/g' /etc/selinux/config  
-
 setenforce 0   
 ```
+
 节点4上  
+
 ```bash
 hostnamectl set-hostname hadoop-4  
-
 systemctl stop firewalld && systemctl disable firewalld  
-
 sed -i 's/enforcing/disabled/g' /etc/selinux/config  
-
 setenforce 0  
 ```
+
 节点5上  
+
 ```bash
 hostnamectl set-hostname hadoop-5  
-
 systemctl stop firewalld && systemctl disable firewalld  
-
 sed -i 's/enforcing/disabled/g' /etc/selinux/config  
-
 setenforce 0  
 ```
+
 配置时钟同步（NTP）
 所有节点  
+
 ```bash
 timedatectl set-timezone Asia/Shanghai
 yum install -y ntp  
@@ -191,8 +183,7 @@ ZooKeeper JMX enabled by default
 Using config: /usr/local/zookeeper/zookeeper-3.4.8/bin/../conf/zoo.cfg
 Mode: follower或者leader
 ```
-4. 配置Hadoop   
----
+# 4. 配置Hadoop   
 修改/usr/local/hadoop/hadoop-2.7.3/etc/hadoop下配置文件
 hdfs-site.xml如下
 ```xml
@@ -413,8 +404,8 @@ hadoop-3节点
 ```bash
 start-yarn.sh
 ```
-5. HA测试  
----  
+# 5. HA测试  
+
 ![NN01](NN01.png)
 可以看到现在是active
 ```bash
