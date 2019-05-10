@@ -1,14 +1,14 @@
 ![hadoop](hadoop.jpg)
 Hadoop environment for test
 ====
-1.版本组件选择  
+1. 版本组件选择  
 ---
 * OS-->CentOS7.2
 * jdk-->1.8_161
 * hadoop-->2.7.3
 * zookeeper-->3.4.8  
 
-2.角色规划
+2. 角色规划
 ---
 * hadoop-1  datanode namenode DFSZKFailoverController  
 
@@ -19,7 +19,7 @@ Hadoop environment for test
 * hadoop-5  datanode zookeeper journalnode NM SecondRM  
 * 每个节点添加2块盘作为hdfs 数据盘  
 
-3.基础环境搭建  
+3. 基础环境搭建  
 ---
 * 安装操作系统并为机器配置IP（省略）  
  
@@ -191,7 +191,7 @@ ZooKeeper JMX enabled by default
 Using config: /usr/local/zookeeper/zookeeper-3.4.8/bin/../conf/zoo.cfg
 Mode: follower或者leader
 ```
-配置Hadoop   
+4. 配置Hadoop   
 ---
 修改/usr/local/hadoop/hadoop-2.7.3/etc/hadoop下配置文件
 hdfs-site.xml如下
@@ -413,7 +413,7 @@ hadoop-3节点
 ```bash
 start-yarn.sh
 ```
-HA测试  
+5. HA测试  
 ---  
 ![NN01](NN01.png)
 可以看到现在是active
