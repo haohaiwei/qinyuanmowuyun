@@ -1,6 +1,6 @@
 # Summary
 
-* [有个小白在写书](README.md)
+* [有个小白](README.md)
 * [AI](ai.md)
     * [AlphaPose](AlphaPose/README.md)
     * [Caffe](caffe/README.md)
