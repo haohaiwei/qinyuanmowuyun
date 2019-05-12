@@ -1,5 +1,7 @@
-# Ceph	 luminous部署
-## 1. 环境信息
+# Ceph	 luminous部署  
+
+## 1. 环境信息  
+
 * OS --> CentOS7.3
 * ceph -->  luminous
 * python --> 2.7.5
@@ -13,7 +15,8 @@
 ```bash
 yum install -y ceph-deploy
 ```
-## 3. 部署
+
+## 3. 部署  
 
 1. mon以及osd部署
 ```bash
@@ -59,7 +62,8 @@ weh访问地址：http://172.20.5.241:7000
 ```bash
 ceph -s
 ```
-## 4. CephFS部署
+
+## 4. CephFS部署  
 
 1. add metadata and create fs
 ```bash
@@ -72,16 +76,21 @@ ceph fs new nfs cephfs_metadata cephfs_data
 ```bash
 mount.ceph ceph-1:/ /mnt/cephfs/ -o name=admin,secret=AQAzCfRadRzIDhAAATbRfsO6kOhqDKKPejrRnw==
 ```
-## 5. 对象存储部署
-1. rgw安装
+## 5. 对象存储部署  
+
+1. rgw安装  
+
 ```bash
 ceph-deploy install --rgw ceph-1 ceph-2 ceph-3
 ceph-deploy rgw create ceph-1 ceph-2 ceph-3
 ```
-2. 创建用户
+
+2. 创建用户  
+
 ```bash
 radosgw-admin user create --uid=hao --display-name="hao" --email=admin@xx.com
 ```
+
 ```vim
 {
 	"user_id": "hao",
@@ -121,19 +130,23 @@ radosgw-admin user create --uid=hao --display-name="hao" --email=admin@xx.com
 	"type": "rgw"
 }
 ```
-3. 创建子用户
+
+3. 创建子用户  
+
 ```bash
 radosgw-admin subuser create --uid=hao --subuser=hao:swift --access=full
 #access权限可分为read，write，readwrite，full
 ```
-4. S3接口创建bucket测试,安装依赖，
+
+4. S3接口创建bucket测试,安装依赖  
+
 ```bash
 yum install -y python2-boto
 ```
+
 5. s3接口测试  
 
 测试脚本如下:  
-
 ```python
 import boto.s3.connection
 
