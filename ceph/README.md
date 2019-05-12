@@ -76,6 +76,7 @@ ceph fs new nfs cephfs_metadata cephfs_data
 ```bash
 mount.ceph ceph-1:/ /mnt/cephfs/ -o name=admin,secret=AQAzCfRadRzIDhAAATbRfsO6kOhqDKKPejrRnw==
 ```
+
 ## 5. 对象存储部署  
 
 1. rgw安装  
@@ -144,7 +145,7 @@ radosgw-admin subuser create --uid=hao --subuser=hao:swift --access=full
 yum install -y python2-boto
 ```
 
-5. s3接口测试  
+## 6. s3接口测试  
 
 测试脚本如下:  
 ```python
@@ -167,13 +168,13 @@ for bucket in conn.get_all_buckets():
 	)
 ```
 
-## 6. swift测试
+## 7. swift测试
 ```bash
 pip install python-swiftclient
 #list bucket
 swift -A http://ceph-1:7480/auth/1.0 -U hao:swift -K 'h3v0WiIkWt3kYMggKd3zVQPDsX3H4uCUe9ixzQRt' list
 ```
-## 7. RBD（块设备）测试  
+## 8. RBD（块设备）测试  
 
 1. 创建pool  
 
