@@ -4,6 +4,7 @@
 * [AI](ai.md)
     * [AlphaPose](AlphaPose/README.md)
     * [Caffe](caffe/README.md)
+    * [Tensorflow](tensorflow/README.md)
 * [大数据](bd.md)
     * [Hadoop](Hadoop/README.md)
     * [Spark](Spark/README.md)
@@ -23,4 +24,9 @@
     * [python](python/py.md)
     * [java](java/ja.md)
     * [scala](scala/scala.md)
+* [分布式存储](ceph.md)
+    * [ceph](ceph/README.md)
+* [Tools](tool.md)
+    * [idea](idea/README.md)
+
 
