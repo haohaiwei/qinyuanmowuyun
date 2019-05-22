@@ -7,6 +7,8 @@
     * [Tensorflow](tensorflow/README.md)
 * [大数据](bd.md)
     * [Hadoop](Hadoop/README.md)
+    * [hadoop性能调优](Hadoop/c.md)
+    * [hadoop运维](Hadoop/d.md)
     * [Spark](Spark/README.md)
     * [Hbase](hbase/README.md)
     * [CDH](CDH/README.md)
