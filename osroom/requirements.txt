@@ -38,7 +38,7 @@ PyJWT==1.5.3
 pymongo==3.5.1
 PyNaCl==1.2.0
 pytz==2017.3
-PyYAML==3.12
+PyYAML==5.4
 redis==2.10.6
 regex==2017.9.23
 requests==2.18.4
